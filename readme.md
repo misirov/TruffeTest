@@ -20,7 +20,7 @@ generate private key with npx and add to truffle.config.js:
 npm intall @truffle/hdwallet-provider
 
 // use moralis gateway:
----
+---redacted---
 
 // get wallet address from the network created with the mnemonic private key
 truffle console --network rinkeby
