@@ -1,18 +1,17 @@
-npm install truffle -g
+>npm install truffle -g
 
-truffle init
+>truffle init
 
-truffle compile
+>truffle compile
 
-truffle develop
+>truffle develop
 
 // instantiate the smart contract to interact with it:
-var instance = await Hello.deployed()
-Hello.hello() //call the contract
+>var instance = await Hello.deployed()
+`Hello.hello() //call the contract`
 
 
-
->>> deploy to testnet
+> deploy to testnet
 
 // generate private key with npx and add to truffle.config.js:
 npx mnemonics
