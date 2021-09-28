@@ -11,10 +11,10 @@
 `Hello.hello() //call the contract`
 
 
-> deploy to testnet
+// deploy to testnet
 
-// generate private key with npx and add to truffle.config.js:
-npx mnemonics
+generate private key with npx and add to truffle.config.js:
+>npx mnemonics
 
 // uncomment in truffle-config.json and install truffles built in hardware wallet privider
 npm intall @truffle/hdwallet-provider
